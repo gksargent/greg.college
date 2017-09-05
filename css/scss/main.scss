@@ -1,0 +1,60 @@
+//Modules & Variables
+@import 'partials/colors';
+@import "partials/typography";
+@import 'partials/base';
+
+//Other Partials
+@import "partials/buttons";
+@import "partials/figures";
+@import "partials/grids";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/forms";
+@import "partials/icons";
+
+
+
+
+body {
+  background-color: $body-background;
+  color: $body-color;
+  display: flex;
+  font-family: $body-font-family;
+  height: 100vh;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: $main-background;
+  border-radius: 5px;
+  box-shadow: 0 30px 50px -20px RGBA(0, 0, 0, 0.4);
+  height: fit-content;
+  margin: 25px 25px 30px 270px;
+  min-height: 83vh;
+  padding: 50px;
+  width: 100vw;
+}
+
+a, a:visited {
+  background-color: whitesmoke;
+  color: $link-color;
+  font-weight: 500;
+  padding: 3px 9px;
+  text-decoration: none;
+  transition: all 100ms;
+}
+
+a:hover {
+  color: $link-color-hover;
+}
+
+a:active {
+  color: $link-color-active;
+}
+
+hr {
+  border: solid 1px $border-color;
+  margin: 50px 0;
+}

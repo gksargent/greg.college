@@ -1,0 +1,27 @@
+/*
+======================================
+Typography styles
+======================================
+*/
+
+$body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$heading-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$fixed-font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+//Body font
+$body-font-weight: $regular;
+$body-font-size: 17px;
+$body-line-height: 1.3;
+
+//Fixed font
+$fixed-font-size: 15px;
+$fixed-line-height: $body-line-height;
+
+//Meta text font
+$meta-text-font-size: 10px;
+$meta-text-line-height: 1;
